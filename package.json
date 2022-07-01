@@ -27,6 +27,6 @@
   "devDependencies": {
     "@parcel/transformer-sass": "2.6.2",
     "parcel": "^2.6.2",
-    "photon-cli": "^0.4.2"
+    "photon-cli": "^0.4.3"
   }
 }

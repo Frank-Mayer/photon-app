@@ -2469,22 +2469,22 @@ __metadata:
   dependencies:
     "@parcel/transformer-sass": 2.6.2
     parcel: ^2.6.2
-    photon-cli: ^0.4.2
+    photon-cli: ^0.4.3
     photon-re: ^0.3.3
   languageName: unknown
   linkType: soft
 
-"photon-cli@npm:^0.4.2":
-  version: 0.4.2
-  resolution: "photon-cli@npm:0.4.2"
+"photon-cli@npm:^0.4.3":
+  version: 0.4.3
+  resolution: "photon-cli@npm:0.4.3"
   dependencies:
     "@frank-mayer/dom-serializer": ^2.0.2
     domhandler: ^4.3.0
     domutils: ^2.8.0
     htmlparser2: ^7.2.0
   bin:
-    photon: ./index.js
-  checksum: a28b6b7bb6e730335f777dcb3ebe1328ae8aaceb8226505d97ae8b73cdca21b5ae58489dc4783b195def665a92413d86f31e6ab0db8023ba1cacb5e2519a5fe2
+    photon: index.js
+  checksum: 7a981690f4ce46fb6264ee75c3177ec1f07d2425187d4f0091533ce7918e5ad360b92fafc3189e6ca44e8eb728875b218cd522a64a75741b9ee89a3a6d3397d7
   languageName: node
   linkType: hard
 
