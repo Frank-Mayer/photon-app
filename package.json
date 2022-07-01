@@ -2,15 +2,12 @@
   "name": "photon-app",
   "repository": "https://github.com/Frank-Mayer/photon-app.git",
   "license": "MIT",
-  "private": false,
   "scripts": {
     "dev": "parcel serve \"src/**/*.html\"",
-    "clean": "npm run clean-linux || npm run clean-windows",
+    "clean": "yarn clean-linux || yarn clean-windows",
     "clean-linux": "rm -rf \"./.parcel-cache\" && rm -rf \"./dist\"",
     "clean-windows": "rmdir /Q/S \"./.parcel-cache\" && rmdir /Q/S \"./dist\"",
-    "pre-b": "node ./html-proc.mjs",
-    "build": "parcel build \"src/index.html\" \"src/**/*.html\" \"src/hotlink-io/*\" --no-source-maps --no-cache --public-url \"https://frank-mayer.io/\"",
-    "post-b": "photon \"./dist\""
+    "build": "parcel build \"src/index.html\" \"src/**/*.html\" \"src/hotlink-io/*\" --no-source-maps --no-cache --public-url \"https://frank-mayer.io/\""
   },
   "browserslist": [
     "last 5 Android versions",
