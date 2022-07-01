@@ -1,3 +1,13 @@
+# lock files
+yarn.lock
+package-lock.json
+
+# Parcel
+.parcel-cache/
+
+# Output
+dist/
+
 # Logs
 logs
 *.log
@@ -59,8 +69,11 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
+# Yarn
 .yarn-integrity
+!.yarnrc.yml
+.yarn/*
+.pnp.cjs
 
 # dotenv environment variables file
 .env
