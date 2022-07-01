@@ -31,6 +31,7 @@ yarn dev
 
 ```
 yarn build
+yarn post-b
 ```
 
 ### Delete cache and output files
