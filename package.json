@@ -1,7 +1,5 @@
 {
   "name": "photon-app",
-  "repository": "https://github.com/Frank-Mayer/photon-app.git",
-  "license": "MIT",
   "scripts": {
     "dev": "parcel serve \"src/**/*.html\" --open",
     "clean": "yarn clean-linux || yarn clean-windows",
