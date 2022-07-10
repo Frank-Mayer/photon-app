@@ -1,12 +1,11 @@
 {
   "name": "photon-app",
   "scripts": {
-    "dev": "parcel serve \"src/**/*.html\" --open",
+    "dev": "photon \"./src/\" --serve 12345",
     "clean": "yarn clean-linux || yarn clean-windows",
-    "clean-linux": "rm -rf \"./.parcel-cache\" && rm -rf \"./dist\"",
-    "clean-windows": "rmdir /Q/S \"./.parcel-cache\" && rmdir /Q/S \"./dist\"",
-    "build": "parcel build \"src/index.html\" \"src/**/*.html\" \"src/hotlink-io/*\" --no-source-maps --no-cache --public-url \"https://frank-mayer.io/\"",
-    "post-b": "photon \"./dist\""
+    "clean-linux": "rm -rf \"./.photon-cache\" && rm -rf \"./dist\"",
+    "clean-windows": "rmdir /Q/S \"./.photon-cache\" && rmdir /Q/S \"./dist\"",
+    "build": "photon \"./src/\""
   },
   "browserslist": [
     "last 5 Android versions",
@@ -21,11 +20,10 @@
     "last 5 Samsung versions"
   ],
   "dependencies": {
-    "photon-re": "^0.3.3"
+    "photon-re": "^1.0.0"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "2.6.2",
-    "parcel": "^2.6.2",
-    "photon-cli": "^0.4.3"
+    "photon-cli": "^1.0.1",
+    "sass": "^1.53.0"
   }
 }
