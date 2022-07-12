@@ -1,3 +1,7 @@
 {
-  "recommendations": ["mrmlnc.vscode-scss", "syler.sass-indented"]
+  "recommendations": [
+    "mrmlnc.vscode-scss",
+    "syler.sass-indented",
+    "ms-vscode.js-debug"
+  ]
 }
