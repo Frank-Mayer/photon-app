@@ -4,8 +4,6 @@
   "typescript.preferences.importModuleSpecifierEnding": "minimal",
   "files.exclude": {
     "node_modules": true,
-    ".yarn": true,
-    "yarn.lock": true,
-    "package-lock.json": true
+    ".yarn": true
   }
 }
