@@ -8,7 +8,7 @@
     "build": "photon \"./src/\""
   },
   "dependencies": {
-    "photon-re": "^1.1.3"
+    "photon-re": "^1.1.4"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.2",
