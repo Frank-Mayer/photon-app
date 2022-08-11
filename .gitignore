@@ -1,6 +1,7 @@
 # package manager lock file
 # package-lock.json
 # yarn.lock
+bun.lockb
 
 # Parcel
 .parcel-cache/
